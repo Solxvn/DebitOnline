@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Login View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="LoginViewController" customModule="ProjectEndIOS07_DebitOnline" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fM3-5n-oXA" customClass="BackgroundVideo" customModule="SwiftVideoBackground">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5PY-D9-2Wz" customClass="FBSDKLoginButton">
+                                        <rect key="frame" x="40" y="453" width="240" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="Y8f-UC-vJl"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="5PY-D9-2Wz" secondAttribute="bottom" constant="75" id="PsQ-Oh-EHE"/>
+                                    <constraint firstAttribute="trailing" secondItem="5PY-D9-2Wz" secondAttribute="trailing" constant="40" id="TT8-li-InR"/>
+                                    <constraint firstItem="5PY-D9-2Wz" firstAttribute="leading" secondItem="fM3-5n-oXA" secondAttribute="leading" constant="40" id="o0v-ED-9Jf"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome Debit Online" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2he-M7-lcE">
+                                <rect key="frame" x="0.0" y="140" width="320" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="FHO-kl-C2d"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="26"/>
+                                <color key="textColor" red="0.98866304149999995" green="1" blue="0.96387449690000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="By signing up, I agree to DebitOnline Terms and Condition" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zWq-T5-2B0">
+                                <rect key="frame" x="56" y="514" width="208" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="24" id="ZeN-C1-nVz"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="fM3-5n-oXA" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="2OL-0q-WGh"/>
+                            <constraint firstItem="2he-M7-lcE" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="CU7-AT-wK3"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="zWq-T5-2B0" secondAttribute="bottom" constant="30" id="Lrg-mt-klz"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="fM3-5n-oXA" secondAttribute="bottom" id="WMm-Oa-0Dk"/>
+                            <constraint firstItem="zWq-T5-2B0" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="40" id="k9M-8m-un1"/>
+                            <constraint firstItem="fM3-5n-oXA" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="kpB-dQ-bUV"/>
+                            <constraint firstItem="2he-M7-lcE" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="120" id="lZX-z0-8jX"/>
+                            <constraint firstAttribute="trailing" secondItem="fM3-5n-oXA" secondAttribute="trailing" id="lgy-xh-C9j"/>
+                            <constraint firstAttribute="trailing" secondItem="2he-M7-lcE" secondAttribute="trailing" id="tJL-Oj-QhZ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="zWq-T5-2B0" secondAttribute="trailing" constant="40" id="xyL-Jr-HrJ"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="backgroundVideo" destination="fM3-5n-oXA" id="mPg-r7-RvA"/>
+                        <outlet property="btnLoginFacebook" destination="5PY-D9-2Wz" id="zEx-KY-gPU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="33.75" y="34.859154929577464"/>
+        </scene>
+        <!--Credit-->
+        <scene sceneID="bcb-Uc-pqh">
+            <objects>
+                <navigationController id="AFV-HB-3ml" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Credit" id="C2y-2g-dSD"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="9AL-jB-U8A">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.18431372549019609" green="0.21568627450980393" blue="0.24313725490196078" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="QD3-Ad-oEC" kind="relationship" relationship="rootViewController" id="SKr-e4-lDk"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QkF-j8-WKr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1179" y="1654"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Lot-z7-oOu">
+            <objects>
+                <viewController id="QD3-Ad-oEC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="hbW-hf-oia"/>
+                        <viewControllerLayoutGuide type="bottom" id="NPd-oH-wYF"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="aih-QV-D6a">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="nsq-wv-pLV"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Q8l-qw-Jlv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1174" y="2512"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="yeL-1b-a3f">
+            <objects>
+                <viewController id="f3g-oc-FO2" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="otg-rs-Pt1"/>
+                        <viewControllerLayoutGuide type="bottom" id="4QE-Zz-OxC"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ToN-Uh-jnD">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="QbH-ig-bGo"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XX9-lK-ADX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2124" y="2512"/>
+        </scene>
+        <!--Menu-->
+        <scene sceneID="ThD-2p-nvx">
+            <objects>
+                <navigationController id="puw-ea-d8e" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Menu" id="iGa-0W-4nB"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="QVf-dJ-CUG">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.18431372549019609" green="0.21568627450980393" blue="0.24313725490196078" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="f3g-oc-FO2" kind="relationship" relationship="rootViewController" id="DJw-ze-gi2"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aFC-G6-slI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2126" y="1654"/>
+        </scene>
+        <!--Tab Bar View Controller-->
+        <scene sceneID="eVx-JD-hxN">
+            <objects>
+                <tabBarController id="83L-Td-ITG" customClass="TabBarViewController" customModule="ProjectEndIOS07_DebitOnline" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="cXC-v9-JWY">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="barTintColor" red="0.18431372549019609" green="0.21568627450980393" blue="0.24313725490196078" alpha="0.0" colorSpace="calibratedRGB"/>
+                        <color key="selectedImageTintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="keyPath">
+                                <color key="value" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </tabBar>
+                    <connections>
+                        <segue destination="Nef-qJ-h9q" kind="relationship" relationship="viewControllers" id="yWw-Ay-ufv"/>
+                        <segue destination="pfI-KD-QiY" kind="relationship" relationship="viewControllers" id="h6T-X7-NqC"/>
+                        <segue destination="AFV-HB-3ml" kind="relationship" relationship="viewControllers" id="xAH-w9-dTH"/>
+                        <segue destination="puw-ea-d8e" kind="relationship" relationship="viewControllers" id="9LI-9x-C2Z"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0uy-Hd-X3z" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="442" y="742"/>
+        </scene>
+        <!--Debit-->
+        <scene sceneID="IOj-25-eCG">
+            <objects>
+                <navigationController id="pfI-KD-QiY" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Debit" id="LYi-Yy-sr7"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="3kf-qm-Rh9">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.18431372549019609" green="0.21568627450980393" blue="0.24313725490196078" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="89e-Z5-46p" kind="relationship" relationship="rootViewController" id="ruL-Eu-hEm"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pcN-Ns-YGO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-354" y="1654"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="oGH-Wm-jWq">
+            <objects>
+                <navigationController id="Nef-qJ-h9q" customClass="HomeNavigationViewController" customModule="ProjectEndIOS07_DebitOnline" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Home" image="ImageHome" id="bUo-AA-q0U"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="lR5-aI-43A">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.18431372549019609" green="0.21568627450980393" blue="0.24313725490196078" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="DwX-WV-MEc" kind="relationship" relationship="rootViewController" id="bJK-bI-IHm"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="l6t-Hp-JEX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1395" y="1655"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="Gqq-an-mks">
+            <objects>
+                <viewController id="DwX-WV-MEc" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="aJW-UB-pfo"/>
+                        <viewControllerLayoutGuide type="bottom" id="zVy-XD-zFI"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="j3L-Lf-BQa">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Home" id="coZ-hd-lSX"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6vH-fr-ZNQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1399" y="2474"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="weL-Zm-Jmr">
+            <objects>
+                <viewController id="89e-Z5-46p" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="u1J-Tp-q1a"/>
+                        <viewControllerLayoutGuide type="bottom" id="bNP-KX-b2h"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8aG-Jz-9KB">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="eoU-8Y-llC"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ipN-dj-0vu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-356" y="2491"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ImageHome" width="21" height="21"/>
+    </resources>
+</document>

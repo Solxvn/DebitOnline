@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5711D32C1EDBCEE800D9FA7B /* 540.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 5711D32B1EDBCEE800D9FA7B /* 540.mp4 */; };
+		5720978C1ED80A3F0078B979 /* Background.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 5720978B1ED80A3F0078B979 /* Background.mp4 */; };
+		57F7471A1ED8371100015EEE /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F747191ED8371100015EEE /* HomeViewController.swift */; };
+		57F7471C1ED8371800015EEE /* DebitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F7471B1ED8371800015EEE /* DebitViewController.swift */; };
+		57F7471E1ED8372100015EEE /* CreaditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F7471D1ED8372100015EEE /* CreaditViewController.swift */; };
+		57F747201ED8372E00015EEE /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F7471F1ED8372E00015EEE /* MenuViewController.swift */; };
+		57F747241ED8380B00015EEE /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F747231ED8380B00015EEE /* TabBarViewController.swift */; };
+		57F747261ED8397000015EEE /* HomeNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F747251ED8397000015EEE /* HomeNavigationViewController.swift */; };
+		57FD5AB61ED6D90200422733 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FD5AB51ED6D90200422733 /* AppDelegate.swift */; };
+		57FD5ABB1ED6D90200422733 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57FD5AB91ED6D90200422733 /* Main.storyboard */; };
+		57FD5ABD1ED6D90200422733 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57FD5ABC1ED6D90200422733 /* Assets.xcassets */; };
+		57FD5AC01ED6D90200422733 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57FD5ABE1ED6D90200422733 /* LaunchScreen.storyboard */; };
+		57FD5ACA1ED6D9F600422733 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FD5AC91ED6D9F600422733 /* LoginViewController.swift */; };
+		A44BD2C01A1C47EB905C56DF /* Pods_ProjectEndIOS07_DebitOnline.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E065BBD64148ED20F381E22 /* Pods_ProjectEndIOS07_DebitOnline.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3E065BBD64148ED20F381E22 /* Pods_ProjectEndIOS07_DebitOnline.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProjectEndIOS07_DebitOnline.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		527D474B2C5E6502C1145BC3 /* Pods-ProjectEndIOS07-DebitOnline.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectEndIOS07-DebitOnline.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectEndIOS07-DebitOnline/Pods-ProjectEndIOS07-DebitOnline.debug.xcconfig"; sourceTree = "<group>"; };
+		5711D32A1EDBCB6800D9FA7B /* ProjectEndIOS07-DebitOnline.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "ProjectEndIOS07-DebitOnline.entitlements"; sourceTree = "<group>"; };
+		5711D32B1EDBCEE800D9FA7B /* 540.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 540.mp4; sourceTree = "<group>"; };
+		5720978B1ED80A3F0078B979 /* Background.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Background.mp4; sourceTree = "<group>"; };
+		57F747191ED8371100015EEE /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		57F7471B1ED8371800015EEE /* DebitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DebitViewController.swift; sourceTree = "<group>"; };
+		57F7471D1ED8372100015EEE /* CreaditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreaditViewController.swift; sourceTree = "<group>"; };
+		57F7471F1ED8372E00015EEE /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		57F747231ED8380B00015EEE /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		57F747251ED8397000015EEE /* HomeNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeNavigationViewController.swift; sourceTree = "<group>"; };
+		57FD5AB21ED6D90200422733 /* ProjectEndIOS07-DebitOnline.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ProjectEndIOS07-DebitOnline.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57FD5AB51ED6D90200422733 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		57FD5ABA1ED6D90200422733 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		57FD5ABC1ED6D90200422733 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		57FD5ABF1ED6D90200422733 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		57FD5AC11ED6D90200422733 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57FD5AC91ED6D9F600422733 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B9BF85ABC137901CFC534C40 /* Pods-ProjectEndIOS07-DebitOnline.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectEndIOS07-DebitOnline.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectEndIOS07-DebitOnline/Pods-ProjectEndIOS07-DebitOnline.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57FD5AAF1ED6D90200422733 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A44BD2C01A1C47EB905C56DF /* Pods_ProjectEndIOS07_DebitOnline.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57F747181ED836F300015EEE /* ControllerView */ = {
+			isa = PBXGroup;
+			children = (
+				57F747191ED8371100015EEE /* HomeViewController.swift */,
+				57F7471B1ED8371800015EEE /* DebitViewController.swift */,
+				57F7471D1ED8372100015EEE /* CreaditViewController.swift */,
+				57F7471F1ED8372E00015EEE /* MenuViewController.swift */,
+			);
+			name = ControllerView;
+			sourceTree = "<group>";
+		};
+		57F747211ED8374600015EEE /* TabBarControllerView */ = {
+			isa = PBXGroup;
+			children = (
+				57F747231ED8380B00015EEE /* TabBarViewController.swift */,
+			);
+			name = TabBarControllerView;
+			sourceTree = "<group>";
+		};
+		57F747221ED8377400015EEE /* NavigationControllerView */ = {
+			isa = PBXGroup;
+			children = (
+				57F747251ED8397000015EEE /* HomeNavigationViewController.swift */,
+			);
+			name = NavigationControllerView;
+			sourceTree = "<group>";
+		};
+		57FD5AA91ED6D90200422733 = {
+			isa = PBXGroup;
+			children = (
+				57FD5AB41ED6D90200422733 /* ProjectEndIOS07-DebitOnline */,
+				57FD5AB31ED6D90200422733 /* Products */,
+				AA5439E9F6FAD37665B8466E /* Pods */,
+				7EEB9F56871CC94614DAF66C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		57FD5AB31ED6D90200422733 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57FD5AB21ED6D90200422733 /* ProjectEndIOS07-DebitOnline.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57FD5AB41ED6D90200422733 /* ProjectEndIOS07-DebitOnline */ = {
+			isa = PBXGroup;
+			children = (
+				5711D32A1EDBCB6800D9FA7B /* ProjectEndIOS07-DebitOnline.entitlements */,
+				57F747221ED8377400015EEE /* NavigationControllerView */,
+				57F747211ED8374600015EEE /* TabBarControllerView */,
+				57F747181ED836F300015EEE /* ControllerView */,
+				57FD5AB51ED6D90200422733 /* AppDelegate.swift */,
+				57FD5AB91ED6D90200422733 /* Main.storyboard */,
+				57FD5ABC1ED6D90200422733 /* Assets.xcassets */,
+				5711D32B1EDBCEE800D9FA7B /* 540.mp4 */,
+				57FD5ABE1ED6D90200422733 /* LaunchScreen.storyboard */,
+				57FD5AC11ED6D90200422733 /* Info.plist */,
+				57FD5AC91ED6D9F600422733 /* LoginViewController.swift */,
+				5720978B1ED80A3F0078B979 /* Background.mp4 */,
+			);
+			path = "ProjectEndIOS07-DebitOnline";
+			sourceTree = "<group>";
+		};
+		7EEB9F56871CC94614DAF66C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E065BBD64148ED20F381E22 /* Pods_ProjectEndIOS07_DebitOnline.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA5439E9F6FAD37665B8466E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				527D474B2C5E6502C1145BC3 /* Pods-ProjectEndIOS07-DebitOnline.debug.xcconfig */,
+				B9BF85ABC137901CFC534C40 /* Pods-ProjectEndIOS07-DebitOnline.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57FD5AB11ED6D90200422733 /* ProjectEndIOS07-DebitOnline */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57FD5AC41ED6D90200422733 /* Build configuration list for PBXNativeTarget "ProjectEndIOS07-DebitOnline" */;
+			buildPhases = (
+				0598EC3C79BB2F6598184362 /* [CP] Check Pods Manifest.lock */,
+				57FD5AAE1ED6D90200422733 /* Sources */,
+				57FD5AAF1ED6D90200422733 /* Frameworks */,
+				57FD5AB01ED6D90200422733 /* Resources */,
+				FFD276AF4D6154B6C08744C6 /* [CP] Embed Pods Frameworks */,
+				4443A901C0245F0DC25688F5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ProjectEndIOS07-DebitOnline";
+			productName = "ProjectEndIOS07-DebitOnline";
+			productReference = 57FD5AB21ED6D90200422733 /* ProjectEndIOS07-DebitOnline.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57FD5AAA1ED6D90200422733 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Đặng Thanh Sơn";
+				TargetAttributes = {
+					57FD5AB11ED6D90200422733 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 3N69E32CL5;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 57FD5AAD1ED6D90200422733 /* Build configuration list for PBXProject "ProjectEndIOS07-DebitOnline" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 57FD5AA91ED6D90200422733;
+			productRefGroup = 57FD5AB31ED6D90200422733 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57FD5AB11ED6D90200422733 /* ProjectEndIOS07-DebitOnline */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57FD5AB01ED6D90200422733 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57FD5AC01ED6D90200422733 /* LaunchScreen.storyboard in Resources */,
+				57FD5ABD1ED6D90200422733 /* Assets.xcassets in Resources */,
+				5711D32C1EDBCEE800D9FA7B /* 540.mp4 in Resources */,
+				57FD5ABB1ED6D90200422733 /* Main.storyboard in Resources */,
+				5720978C1ED80A3F0078B979 /* Background.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0598EC3C79BB2F6598184362 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4443A901C0245F0DC25688F5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProjectEndIOS07-DebitOnline/Pods-ProjectEndIOS07-DebitOnline-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FFD276AF4D6154B6C08744C6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProjectEndIOS07-DebitOnline/Pods-ProjectEndIOS07-DebitOnline-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57FD5AAE1ED6D90200422733 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57FD5ACA1ED6D9F600422733 /* LoginViewController.swift in Sources */,
+				57F747261ED8397000015EEE /* HomeNavigationViewController.swift in Sources */,
+				57F7471E1ED8372100015EEE /* CreaditViewController.swift in Sources */,
+				57F747201ED8372E00015EEE /* MenuViewController.swift in Sources */,
+				57FD5AB61ED6D90200422733 /* AppDelegate.swift in Sources */,
+				57F747241ED8380B00015EEE /* TabBarViewController.swift in Sources */,
+				57F7471A1ED8371100015EEE /* HomeViewController.swift in Sources */,
+				57F7471C1ED8371800015EEE /* DebitViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		57FD5AB91ED6D90200422733 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57FD5ABA1ED6D90200422733 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		57FD5ABE1ED6D90200422733 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57FD5ABF1ED6D90200422733 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57FD5AC21ED6D90200422733 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		57FD5AC31ED6D90200422733 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57FD5AC51ED6D90200422733 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 527D474B2C5E6502C1145BC3 /* Pods-ProjectEndIOS07-DebitOnline.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "ProjectEndIOS07-DebitOnline/ProjectEndIOS07-DebitOnline.entitlements";
+				DEVELOPMENT_TEAM = 3N69E32CL5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ProjectEndIOS07-DebitOnline",
+				);
+				INFOPLIST_FILE = "ProjectEndIOS07-DebitOnline/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ILM.ProjectEndIOS07-DebitOnline";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		57FD5AC61ED6D90200422733 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9BF85ABC137901CFC534C40 /* Pods-ProjectEndIOS07-DebitOnline.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "ProjectEndIOS07-DebitOnline/ProjectEndIOS07-DebitOnline.entitlements";
+				DEVELOPMENT_TEAM = 3N69E32CL5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ProjectEndIOS07-DebitOnline",
+				);
+				INFOPLIST_FILE = "ProjectEndIOS07-DebitOnline/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ILM.ProjectEndIOS07-DebitOnline";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57FD5AAD1ED6D90200422733 /* Build configuration list for PBXProject "ProjectEndIOS07-DebitOnline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57FD5AC21ED6D90200422733 /* Debug */,
+				57FD5AC31ED6D90200422733 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57FD5AC41ED6D90200422733 /* Build configuration list for PBXNativeTarget "ProjectEndIOS07-DebitOnline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57FD5AC51ED6D90200422733 /* Debug */,
+				57FD5AC61ED6D90200422733 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57FD5AAA1ED6D90200422733 /* Project object */;
+}
